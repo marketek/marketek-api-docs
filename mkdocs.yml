@@ -44,7 +44,6 @@ nav:
   - 'Tópicos Avançados':
     - 'Visão Geral de OAuth 2.0': 'advanced/oauth-overview.md'
     - 'Snapshots': 'advanced/snapshots.md'
-    - 'Modo SaaS (Agência)': 'advanced/saas-mode.md'
   - 'Ajuda':
     - 'Glossário': 'help/glossario.md'
     - 'Perguntas Frequentes (FAQs)': 'help/faqs.md'
