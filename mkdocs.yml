@@ -1,0 +1,50 @@
+# Informações do Projeto
+site_name: Documentação API Marketek
+site_url: https://developers.marketek.com.br/
+site_author: Equipe Marketek
+
+# Aparência
+theme:
+  name: material
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
+  logo: assets/logo.png # (Lembre-se de subir seu logo para docs/assets/logo.png)
+  favicon: assets/favicon.ico # (Lembre-se de subir seu favicon para docs/assets/favicon.ico)
+
+# Navegação (A Estrutura do seu Site)
+nav:
+  - 'Começando Agora':
+    - 'Início': 'index.md'
+    - 'Autenticação': 'getting-started/autenticacao.md'
+    - 'Padrões da API': 'getting-started/padroes-api.md'
+    - 'Tratamento de Erros e Limites': 'getting-started/erros-e-limites.md'
+  - 'Recursos Principais':
+    - 'Contatos': 'core-resources/contatos.md'
+    - 'Empresas': 'core-resources/empresas.md'
+    - 'Oportunidades': 'core-resources/oportunidades.md'
+    - 'Agendamentos e Calendários': 'core-resources/agendamentos.md'
+    - 'Conversas': 'core-resources/conversas.md'
+    - 'Faturas (Invoices)': 'core-resources/faturas.md'
+    - 'Tags': 'core-resources/tags.md'
+  - 'Recursos Adicionais':
+    - 'Formulários': 'additional-resources/formularios.md'
+    - 'Campos Personalizados': 'additional-resources/campos-personalizados.md'
+    - 'Usuários': 'additional-resources/usuarios.md'
+    - 'Biblioteca de Mídia': 'additional-resources/media-library.md'
+    - 'Agendador Social': 'additional-resources/social-planner.md'
+  - 'Automação':
+    - 'Workflows (Automações)': 'automation/workflows.md'
+    - 'Webhooks': 'automation/webhooks.md'
+    - 'Melhores Práticas para Webhooks': 'automation/webhook-best-practices.md'
+  - 'Guias e Melhores Práticas':
+    - 'Exemplo Prático': 'guides/exemplo-pratico.md'
+    - 'SDKs e Wrappers': 'guides/sdks-e-wrappers.md'
+    - 'Changelog e Versionamento': 'guides/changelog.md'
+  - 'Tópicos Avançados':
+    - 'Visão Geral de OAuth 2.0': 'advanced/oauth-overview.md'
+    - 'Snapshots': 'advanced/snapshots.md'
+    - 'Modo SaaS (Agência)': 'advanced/saas-mode.md'
+  - 'Ajuda':
+    - 'Glossário': 'help/glossario.md'
+    - 'Perguntas Frequentes (FAQs)': 'help/faqs.md'
